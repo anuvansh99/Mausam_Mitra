@@ -1,10 +1,10 @@
 import React from 'react';
 import MapComponent from '../components/MapComponent';
 
-const WeatherPage = () => (
+const InfraPage = () => (
   <div className="w-full h-full">
-    <MapComponent mode="weather" markerColor="blue" />
+    <MapComponent mode="infrastructure" markerColor="violet" />
   </div>
 );
 
-export default WeatherPage;
+export default InfraPage;

@@ -5,25 +5,81 @@ import 'leaflet/dist/leaflet.css';
 import { capitals } from '../data/capitals';
 import L from 'leaflet';
 
-// Default (blue) marker
-const defaultIcon = new L.Icon({
-  iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-  shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
-  shadowSize: [41, 41],
-});
-
-// Red marker for risks
-const redIcon = new L.Icon({
-  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-  shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
-  shadowSize: [41, 41],
-});
+// Marker icons for different colors (all available in the Leaflet color markers set)
+const markerIcons = {
+  blue: new L.Icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+    shadowSize: [41, 41],
+  }),
+  red: new L.Icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+    shadowSize: [41, 41],
+  }),
+  green: new L.Icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+    shadowSize: [41, 41],
+  }),
+  yellow: new L.Icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-yellow.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+    shadowSize: [41, 41],
+  }),
+  violet: new L.Icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-violet.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+    shadowSize: [41, 41],
+  }),
+  orange: new L.Icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-orange.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+    shadowSize: [41, 41],
+  }),
+  grey: new L.Icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-grey.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+    shadowSize: [41, 41],
+  }),
+  black: new L.Icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-black.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+    shadowSize: [41, 41],
+  }),
+  default: new L.Icon({
+    iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+    shadowSize: [41, 41],
+  }),
+};
 
 // Weather code to icon mapping (Open-Meteo codes)
 const weatherIcons = {
@@ -51,12 +107,12 @@ function getWeatherDesc(code) {
   return weatherDescriptions[code] || "Unknown";
 }
 
-const MapComponent = ({ mode = 'weather' }) => {
+const MapComponent = ({ mode = 'weather', markerColor = 'blue' }) => {
   const navigate = useNavigate();
   const [weatherMap, setWeatherMap] = useState({});
   const [isDark, setIsDark] = useState(document.documentElement.classList.contains('dark'));
 
-  // Always listen for dark mode changes, regardless of mode
+  // Listen for dark mode changes
   useEffect(() => {
     const observer = new MutationObserver(() => {
       setIsDark(document.documentElement.classList.contains('dark'));
@@ -96,6 +152,9 @@ const MapComponent = ({ mode = 'weather' }) => {
     ? '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
     : '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 
+  // Pick icon based on markerColor prop, fallback to default if not found
+  const markerIcon = markerIcons[markerColor] || markerIcons.default;
+
   return (
     <div className="h-[60vh] md:h-screen w-full animate-fade-in-up transition-all duration-700">
       <MapContainer
@@ -111,16 +170,14 @@ const MapComponent = ({ mode = 'weather' }) => {
           <Marker
             key={city.city}
             position={[city.lat, city.lon]}
-            icon={mode === 'risk' ? redIcon : defaultIcon}
+            icon={markerIcon}
           >
             <Popup>
               <div className={`flex flex-col items-center min-w-[180px] rounded-lg p-2
                 ${isDark ? "bg-gray-900 text-gray-100" : "bg-white text-gray-900"}
                 shadow-md transition-colors duration-300`}
               >
-                <span className={`font-bold text-lg mb-1 ${mode === 'risk' ? 'text-red-600 dark:text-red-300' : 'text-blue-700 dark:text-blue-300'}`}>
-                  {city.city}
-                </span>
+                <span className="font-bold text-lg mb-1">{city.city}</span>
                 <span className="text-xs mb-2 text-gray-500">Capital of {city.state}</span>
                 {mode === 'weather' ? (
                   weatherMap[city.city] ? (
@@ -141,11 +198,8 @@ const MapComponent = ({ mode = 'weather' }) => {
                 ) : null}
                 <button
                   onClick={() => navigate(`/${mode}/${city.city}`)}
-                  className={`mt-2 px-2 py-1 rounded text-white ${
-                    mode === 'risk'
-                      ? 'bg-red-600 hover:bg-red-700'
-                      : 'bg-blue-600 hover:bg-blue-700'
-                  }`}
+                  className={`mt-2 px-2 py-1 rounded text-white`}
+                  style={{ backgroundColor: markerColor }}
                 >
                   Show Details
                 </button>

@@ -2,12 +2,15 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 
 const navItems = [
-  { name: 'Home', value: 'home', route: '/', active: 'bg-gradient-to-r from-green-400 to-green-600 text-white', hover: 'hover:bg-gradient-to-r hover:from-green-400 hover:to-green-600 hover:text-white' },
-  { name: 'Show Weather', value: 'weather', route: '/weather', active: 'bg-gradient-to-r from-blue-600 to-blue-400 text-white', hover: 'hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-400 hover:text-white' },
-  { name: 'Show Risks', value: 'risk', route: '/risk', active: 'bg-gradient-to-r from-red-600 to-red-400 text-white', hover: 'hover:bg-gradient-to-r hover:from-red-600 hover:to-red-400 hover:text-white' },
+  { name: 'Home', value: 'home', route: '/', markerColor: 'green', active: 'bg-gradient-to-r from-green-400 to-green-600 text-white', hover: 'hover:bg-gradient-to-r hover:from-green-400 hover:to-green-600 hover:text-white' },
+  { name: 'Weather', value: 'weather', route: '/weather', markerColor: 'blue', active: 'bg-gradient-to-r from-blue-600 to-blue-400 text-white', hover: 'hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-400 hover:text-white' },
+  { name: 'Demographics', value: 'demographics', route: '/demographics', markerColor: 'orange', active: 'bg-gradient-to-r from-orange-500 to-orange-400 text-white', hover: 'hover:bg-gradient-to-r hover:from-orange-500 hover:to-orange-400 hover:text-white' },
+  { name: 'Land Cover', value: 'landcover', route: '/landcover', markerColor: 'yellow', active: 'bg-gradient-to-r from-yellow-500 to-yellow-400 text-white', hover: 'hover:bg-gradient-to-r hover:from-yellow-500 hover:to-yellow-400 hover:text-white' },
+  { name: 'Critical Infrastructure', value: 'infrastructure', route: '/infrastructure', markerColor: 'purple', active: 'bg-gradient-to-r from-purple-600 to-purple-400 text-white', hover: 'hover:bg-gradient-to-r hover:from-purple-600 hover:to-purple-400 hover:text-white' },
+  { name: 'Past Events', value: 'pastevents', route: '/pastevents', markerColor: 'red', active: 'bg-gradient-to-r from-red-600 to-red-400 text-white', hover: 'hover:bg-gradient-to-r hover:from-red-600 hover:to-red-400 hover:text-white' },
 ];
 
-const Navbar = ({ mode, setMode }) => {
+const Navbar = ({ mode, setMode, setMarkerColor }) => {
   const [open, setOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(() =>
     window.matchMedia('(prefers-color-scheme: dark)').matches
@@ -38,7 +41,7 @@ const Navbar = ({ mode, setMode }) => {
     if (item.value === 'home') {
       return location.pathname === '/';
     }
-    return mode === item.value && location.pathname.startsWith(item.route);
+    return location.pathname.startsWith(item.route);
   };
 
   return (
@@ -67,7 +70,7 @@ const Navbar = ({ mode, setMode }) => {
         className={`
           fixed md:static top-0 right-0
           bg-white dark:bg-gray-950 text-gray-900 dark:text-white
-          w-32 md:w-40 h-screen
+          w-40 h-screen
           flex flex-col items-center md:items-start
           justify-start
           shadow-lg z-[9999]
@@ -75,7 +78,7 @@ const Navbar = ({ mode, setMode }) => {
           ${open ? 'translate-x-0' : 'translate-x-full'} md:translate-x-0
           px-4 py-8 md:py-10
         `}
-        style={{ minWidth: '8rem' }}
+        style={{ minWidth: '10rem' }}
       >
         {/* Close button for mobile */}
         <button
@@ -104,26 +107,14 @@ const Navbar = ({ mode, setMode }) => {
               `}
               style={{ animationDelay: `${idx * 100}ms` }}
               onClick={() => {
-                if (item.value === 'home') {
-                  navigate(item.route);
-                  setOpen(false);
-                } else {
-                  setMode(item.value);
-                  setOpen(false);
-                  navigate(item.route);
-                }
+                setMode(item.value);
+                if (setMarkerColor) setMarkerColor(item.markerColor);
+                setOpen(false);
+                navigate(item.route);
               }}
             >
               <span className="relative z-10">{item.name}</span>
-              <span className={`absolute inset-0 opacity-0 group-hover:opacity-30 rounded-lg transition-opacity duration-300 ${
-                getActive(item)
-                  ? ''
-                  : (item.value === 'risk'
-                      ? 'bg-red-500'
-                      : item.value === 'weather'
-                        ? 'bg-blue-500'
-                        : 'bg-green-500')
-              }`}></span>
+              <span className={`absolute inset-0 opacity-0 group-hover:opacity-30 rounded-lg transition-opacity duration-300`}></span>
             </li>
           ))}
         </ul>

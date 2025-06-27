@@ -1,10 +1,10 @@
 import React from 'react';
 import MapComponent from '../components/MapComponent';
 
-const WeatherPage = () => (
+const PastEventPage = () => (
   <div className="w-full h-full">
-    <MapComponent mode="weather" markerColor="blue" />
+    <MapComponent mode="pastevents" markerColor="red" />
   </div>
 );
 
-export default WeatherPage;
+export default PastEventPage;

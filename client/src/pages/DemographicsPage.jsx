@@ -1,10 +1,10 @@
 import React from 'react';
 import MapComponent from '../components/MapComponent';
 
-const RiskPage = ({ mode }) => (
+const DemographicsPage = () => (
   <div className="w-full h-full">
-    <MapComponent mode="risk" />
+    <MapComponent mode="demographics" markerColor="orange" />
   </div>
 );
 
-export default RiskPage;
+export default DemographicsPage;
