@@ -27,14 +27,13 @@ const redIcon = new L.Icon({
 
 // Weather code to icon mapping (Open-Meteo codes)
 const weatherIcons = {
-  0: "☀️", // Clear sky
-  1: "🌤️", 2: "⛅", 3: "☁️", // Mainly clear, partly cloudy, overcast
-  45: "🌫️", 48: "🌫️", // Fog
-  51: "🌦️", 53: "🌦️", 55: "🌦️", // Drizzle
-  61: "🌧️", 63: "🌧️", 65: "🌧️", // Rain
-  71: "❄️", 73: "❄️", 75: "❄️", // Snow
-  80: "🌦️", 81: "🌦️", 82: "🌦️", // Rain showers
-  95: "⛈️", 96: "⛈️", 99: "⛈️", // Thunderstorm
+  0: "☀️", 1: "🌤️", 2: "⛅", 3: "☁️",
+  45: "🌫️", 48: "🌫️",
+  51: "🌦️", 53: "🌦️", 55: "🌦️",
+  61: "🌧️", 63: "🌧️", 65: "🌧️",
+  71: "❄️", 73: "❄️", 75: "❄️",
+  80: "🌦️", 81: "🌦️", 82: "🌦️",
+  95: "⛈️", 96: "⛈️", 99: "⛈️",
 };
 const weatherDescriptions = {
   0: "Clear sky", 1: "Mainly clear", 2: "Partly cloudy", 3: "Overcast",
@@ -55,6 +54,16 @@ function getWeatherDesc(code) {
 const MapComponent = ({ mode = 'weather' }) => {
   const navigate = useNavigate();
   const [weatherMap, setWeatherMap] = useState({});
+  const [isDark, setIsDark] = useState(document.documentElement.classList.contains('dark'));
+
+  // Always listen for dark mode changes, regardless of mode
+  useEffect(() => {
+    const observer = new MutationObserver(() => {
+      setIsDark(document.documentElement.classList.contains('dark'));
+    });
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+    return () => observer.disconnect();
+  }, []);
 
   // Fetch weather for all capitals in weather mode
   useEffect(() => {
@@ -79,6 +88,14 @@ const MapComponent = ({ mode = 'weather' }) => {
     fetchAllWeather();
   }, [mode]);
 
+  // Choose tile layer based on dark mode
+  const tileLayerUrl = isDark
+    ? "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
+    : "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+  const tileLayerAttribution = isDark
+    ? '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+    : '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+
   return (
     <div className="h-[60vh] md:h-screen w-full animate-fade-in-up transition-all duration-700">
       <MapContainer
@@ -87,8 +104,8 @@ const MapComponent = ({ mode = 'weather' }) => {
         className="h-full w-full rounded-xl shadow-2xl overflow-hidden"
       >
         <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution='© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url={tileLayerUrl}
+          attribution={tileLayerAttribution}
         />
         {capitals.map((city) => (
           <Marker
@@ -97,7 +114,10 @@ const MapComponent = ({ mode = 'weather' }) => {
             icon={mode === 'risk' ? redIcon : defaultIcon}
           >
             <Popup>
-              <div className="flex flex-col items-center min-w-[180px]">
+              <div className={`flex flex-col items-center min-w-[180px] rounded-lg p-2
+                ${isDark ? "bg-gray-900 text-gray-100" : "bg-white text-gray-900"}
+                shadow-md transition-colors duration-300`}
+              >
                 <span className={`font-bold text-lg mb-1 ${mode === 'risk' ? 'text-red-600 dark:text-red-300' : 'text-blue-700 dark:text-blue-300'}`}>
                   {city.city}
                 </span>
