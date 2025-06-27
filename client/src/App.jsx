@@ -5,14 +5,18 @@ import Home from './pages/Home';
 import WeatherPage from './pages/WeatherPage';
 import WeatherDetails from './components/WeatherDetails';
 import DemographicsPage from './pages/DemographicsPage';
+import DemographicDetails from './components/DemographicDetails';
 import LandUsePage from './pages/LandUsePage';
+import LandDetails from './components/LandDetails';
 import InfraPage from './pages/InfraPage';
+import InfraDetails from './components/InfraDetails';
 import PastEventPage from './pages/PastEventPage';
+import PastEventDetails from './components/PastEventDetails';
 
 // Mapping from mode to markerColor
 const modeToColor = {
   weather: 'blue',
-  demographics: 'pink',
+  demographics: 'orange', // Use 'orange' instead of 'pink' for compatibility
   landcover: 'yellow',
   infrastructure: 'violet',
   pastevents: 'red',
@@ -31,10 +35,14 @@ function App() {
             <Route path="/" element={<Home mode={mode} />} />
             <Route path="/weather" element={<WeatherPage mode={mode} markerColor="blue" />} />
             <Route path="/weather/:city" element={<WeatherDetails />} />
-            <Route path="/demographics" element={<DemographicsPage mode={mode} markerColor="pink" />} />
+            <Route path="/demographics" element={<DemographicsPage mode={mode} markerColor="orange" />} />
+            <Route path="/demographics/:city" element={<DemographicDetails />} />
             <Route path="/landcover" element={<LandUsePage mode={mode} markerColor="yellow" />} />
+            <Route path="/landcover/:city" element={<LandDetails />} />
             <Route path="/infrastructure" element={<InfraPage mode={mode} markerColor="violet" />} />
+            <Route path="/infrastructure/:city" element={<InfraDetails />} />
             <Route path="/pastevents" element={<PastEventPage mode={mode} markerColor="red" />} />
+            <Route path="/pastevents/:city" element={<PastEventDetails />} />
           </Routes>
         </div>
       </div>
