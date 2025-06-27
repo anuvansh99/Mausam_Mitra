@@ -1,16 +1,17 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const navItems = [
-  { name: 'Home' },
-  { name: 'Markers' },
-  { name: 'Settings' },
+  { name: 'Show Weather', value: 'weather', route: '/weather', active: 'bg-gradient-to-r from-blue-600 to-blue-400 text-white', hover: 'hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-400 hover:text-white' },
+  { name: 'Show Risks', value: 'risk', route: '/risk', active: 'bg-gradient-to-r from-red-600 to-red-400 text-white', hover: 'hover:bg-gradient-to-r hover:from-red-600 hover:to-red-400 hover:text-white' },
 ];
 
-const Navbar = () => {
+const Navbar = ({ mode, setMode }) => {
   const [open, setOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(() =>
     window.matchMedia('(prefers-color-scheme: dark)').matches
   );
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (darkMode) {
@@ -77,23 +78,29 @@ const Navbar = () => {
           </svg>
         </button>
         <h2 className="text-lg font-extrabold mb-6 text-center md:text-left tracking-tight">
-          My Map
+          Mausam Mitra
         </h2>
         <ul className="space-y-2 md:space-y-3 w-full">
           {navItems.map((item, idx) => (
             <li
-              key={item.name}
-              className="
-                group relative px-2 py-2 rounded-lg
-                hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-400
-                hover:text-white transition-all duration-300
-                cursor-pointer
-              "
+              key={item.value}
+              className={`
+                group relative px-2 py-2 rounded-lg cursor-pointer
+                transition-all duration-300
+                ${mode === item.value
+                  ? item.active
+                  : item.hover
+                }
+              `}
               style={{ animationDelay: `${idx * 100}ms` }}
-              onClick={() => setOpen(false)}
+              onClick={() => {
+                setMode(item.value);
+                setOpen(false);
+                navigate(item.route);
+              }}
             >
               <span className="relative z-10">{item.name}</span>
-              <span className="absolute inset-0 opacity-0 group-hover:opacity-30 bg-blue-500 rounded-lg transition-opacity duration-300"></span>
+              <span className="absolute inset-0 opacity-0 group-hover:opacity-30 ${mode === item.value ? '' : (item.value === 'risk' ? 'bg-red-500' : 'bg-blue-500')} rounded-lg transition-opacity duration-300"></span>
             </li>
           ))}
         </ul>
