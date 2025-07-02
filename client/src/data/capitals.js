@@ -37,5 +37,8 @@ export const capitals = [
   { state: "Jammu and Kashmir", city: "Srinagar", lat: 34.0837, lon: 74.7973 },
   { state: "Ladakh", city: "Leh", lat: 34.1526, lon: 77.5771 },
   { state: "Lakshadweep", city: "Kavaratti", lat: 10.5667, lon: 72.6420 },
-  { state: "Puducherry", city: "Puducherry", lat: 11.9416, lon: 79.8083 }
+  { state: "Puducherry", city: "Puducherry", lat: 11.9416, lon: 79.8083 },
+  // Additional cities
+  { state: "Punjab", city: "Amritsar", lat: 31.6340, lon: 74.8723 },
+  { state: "Haryana", city: "Panipat", lat: 29.3909, lon: 76.9635 }
 ];

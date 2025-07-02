@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import 'leaflet/dist/leaflet.css';
 import { capitals } from '../data/capitals';
 import L from 'leaflet';
+import MarkerPopUp from './MarkerPopUp';
 
 // Marker icons for different colors (all available in the Leaflet color markers set)
 const markerIcons = {
@@ -81,32 +82,6 @@ const markerIcons = {
   }),
 };
 
-// Weather code to icon mapping (Open-Meteo codes)
-const weatherIcons = {
-  0: "☀️", 1: "🌤️", 2: "⛅", 3: "☁️",
-  45: "🌫️", 48: "🌫️",
-  51: "🌦️", 53: "🌦️", 55: "🌦️",
-  61: "🌧️", 63: "🌧️", 65: "🌧️",
-  71: "❄️", 73: "❄️", 75: "❄️",
-  80: "🌦️", 81: "🌦️", 82: "🌦️",
-  95: "⛈️", 96: "⛈️", 99: "⛈️",
-};
-const weatherDescriptions = {
-  0: "Clear sky", 1: "Mainly clear", 2: "Partly cloudy", 3: "Overcast",
-  45: "Fog", 48: "Depositing rime fog",
-  51: "Light drizzle", 53: "Moderate drizzle", 55: "Dense drizzle",
-  61: "Slight rain", 63: "Moderate rain", 65: "Heavy rain",
-  71: "Slight snow", 73: "Moderate snow", 75: "Heavy snow",
-  80: "Slight rain showers", 81: "Moderate rain showers", 82: "Violent rain showers",
-  95: "Thunderstorm", 96: "Thunderstorm with hail", 99: "Thunderstorm with heavy hail",
-};
-function getWeatherIcon(code) {
-  return weatherIcons[code] || "❓";
-}
-function getWeatherDesc(code) {
-  return weatherDescriptions[code] || "Unknown";
-}
-
 const MapComponent = ({ mode = 'weather', markerColor = 'blue' }) => {
   const navigate = useNavigate();
   const [weatherMap, setWeatherMap] = useState({});
@@ -155,6 +130,18 @@ const MapComponent = ({ mode = 'weather', markerColor = 'blue' }) => {
   // Pick icon based on markerColor prop, fallback to default if not found
   const markerIcon = markerIcons[markerColor] || markerIcons.default;
 
+  // Filter and adjust capitals for non-weather modes
+  let capitalsToShow = capitals;
+  if (mode !== 'weather') {
+    capitalsToShow = capitals.filter(c => c.state !== "Chandigarh");
+    const haryana = { state: "Haryana", city: "Chandigarh", lat: 30.7333, lon: 76.7794 };
+    const punjab = { state: "Punjab", city: "Chandigarh", lat: 30.7333, lon: 76.7794 };
+    const statesSet = new Set(capitalsToShow.map(c => c.state));
+    if (!statesSet.has("Haryana")) capitalsToShow.push(haryana);
+    if (!statesSet.has("Punjab")) capitalsToShow.push(punjab);
+    capitalsToShow = capitalsToShow.sort((a, b) => a.state.localeCompare(b.state));
+  }
+
   return (
     <div className="h-[60vh] md:h-screen w-full animate-fade-in-up transition-all duration-700">
       <MapContainer
@@ -166,44 +153,22 @@ const MapComponent = ({ mode = 'weather', markerColor = 'blue' }) => {
           url={tileLayerUrl}
           attribution={tileLayerAttribution}
         />
-        {capitals.map((city) => (
+        {capitalsToShow.map((city) => (
           <Marker
-            key={city.city}
+            key={city.state + city.city}
             position={[city.lat, city.lon]}
             icon={markerIcon}
           >
             <Popup>
-              <div className={`flex flex-col items-center min-w-[180px] rounded-lg p-2
-                ${isDark ? "bg-gray-900 text-gray-100" : "bg-white text-gray-900"}
-                shadow-md transition-colors duration-300`}
-              >
-                <span className="font-bold text-lg mb-1">{city.city}</span>
-                <span className="text-xs mb-2 text-gray-500">Capital of {city.state}</span>
-                {mode === 'weather' ? (
-                  weatherMap[city.city] ? (
-                    <div className="flex flex-col items-center">
-                      <span className="text-3xl">
-                        {getWeatherIcon(weatherMap[city.city].weathercode)}
-                      </span>
-                      <span className="font-semibold text-xl">
-                        {weatherMap[city.city].temperature_2m}°C
-                      </span>
-                      <span className="text-sm text-gray-700 dark:text-gray-300 mb-2">
-                        {getWeatherDesc(weatherMap[city.city].weathercode)}
-                      </span>
-                    </div>
-                  ) : (
-                    <span className="text-xs text-gray-400 mb-2">Weather data not available</span>
-                  )
-                ) : null}
-                <button
-                  onClick={() => navigate(`/${mode}/${city.city}`)}
-                  className={`mt-2 px-2 py-1 rounded text-white`}
-                  style={{ backgroundColor: markerColor }}
-                >
-                  Show Details
-                </button>
-              </div>
+              <MarkerPopUp
+                mode={mode}
+                city={city.city}
+                state={city.state}
+                isDark={isDark}
+                markerColor={markerColor}
+                navigate={navigate}
+                weatherData={weatherMap[city.city]}
+              />
             </Popup>
           </Marker>
         ))}

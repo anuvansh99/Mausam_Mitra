@@ -36,7 +36,7 @@ function App() {
             <Route path="/weather" element={<WeatherPage mode={mode} markerColor="blue" />} />
             <Route path="/weather/:city" element={<WeatherDetails />} />
             <Route path="/demographics" element={<DemographicsPage mode={mode} markerColor="orange" />} />
-            <Route path="/demographics/:city" element={<DemographicDetails />} />
+            <Route path="/demographics/:state" element={<DemographicDetails />} />
             <Route path="/landcover" element={<LandUsePage mode={mode} markerColor="yellow" />} />
             <Route path="/landcover/:city" element={<LandDetails />} />
             <Route path="/infrastructure" element={<InfraPage mode={mode} markerColor="violet" />} />
