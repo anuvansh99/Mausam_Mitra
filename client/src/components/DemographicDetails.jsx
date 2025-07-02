@@ -192,7 +192,7 @@ const DemographicDetails = () => {
                 <td>{data['sex ratio'] || 'N/A'}</td>
               </tr>
               <tr>
-                <th className="pr-2 py-2 font-semibold">GDP (₹ crore)</th>
+                <th className="pr-2 py-2 font-semibold">GDP (₹ lakh crore)</th>
                 <td>{formatNum(data['GDP'])}</td>
               </tr>
               <tr>
