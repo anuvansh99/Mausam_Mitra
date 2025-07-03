@@ -35,6 +35,10 @@ const MarkerPopUp = ({
   navigate,
   weatherData,
 }) => {
+  // Land use mode: special button style for visibility
+  const isLandUse = mode === 'landuse';
+  const landUseBtnClass = "mt-2 px-2 py-1 rounded font-semibold shadow border border-green-400 bg-green-200 text-black hover:bg-green-100 transition-colors duration-200";
+
   return (
     <div
       className={`flex flex-col items-center min-w-[180px] rounded-lg p-2
@@ -74,8 +78,8 @@ const MarkerPopUp = ({
           <span className="font-bold text-lg mb-2">{state}</span>
           <button
             onClick={() => navigate(`/${mode}/${state}`)}
-            className="mt-2 px-2 py-1 rounded text-white"
-            style={{ backgroundColor: markerColor }}
+            className={isLandUse ? landUseBtnClass : "mt-2 px-2 py-1 rounded text-white"}
+            style={isLandUse ? undefined : { backgroundColor: markerColor }}
           >
             View Details
           </button>

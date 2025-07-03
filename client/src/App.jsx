@@ -38,11 +38,11 @@ function App() {
             <Route path="/demographics" element={<DemographicsPage mode={mode} markerColor="orange" />} />
             <Route path="/demographics/:state" element={<DemographicDetails />} />
             <Route path="/landcover" element={<LandUsePage mode={mode} markerColor="yellow" />} />
-            <Route path="/landcover/:city" element={<LandDetails />} />
+            <Route path="/landcover/:state" element={<LandDetails />} />
             <Route path="/infrastructure" element={<InfraPage mode={mode} markerColor="violet" />} />
-            <Route path="/infrastructure/:city" element={<InfraDetails />} />
+            <Route path="/infrastructure/:state" element={<InfraDetails />} />
             <Route path="/pastevents" element={<PastEventPage mode={mode} markerColor="red" />} />
-            <Route path="/pastevents/:city" element={<PastEventDetails />} />
+            <Route path="/pastevents/:state" element={<PastEventDetails />} />
           </Routes>
         </div>
       </div>
