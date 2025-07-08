@@ -1,0 +1,712 @@
+[
+  {
+    "state": "Andaman and Nicobar Islands",
+    "recent_disasters": [
+      {
+        "event": "2004 Indian Ocean Tsunami",
+        "description": "A massive tsunami struck the islands, causing widespread devastation, thousands of deaths, and destruction of infrastructure.",
+        "link": "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami"
+      },
+      {
+        "event": "Cyclone Phailin (2013)",
+        "description": "Heavy rains and strong winds caused flooding and damage, though the islands were less affected than the mainland.",
+        "link": "https://en.wikipedia.org/wiki/Cyclone_Phailin"
+      }
+    ]
+  },
+  {
+    "state": "Andhra Pradesh",
+    "recent_disasters": [
+      {
+        "event": "Cyclone Hudhud (2014)",
+        "description": "A severe cyclone made landfall near Visakhapatnam, causing extensive damage to infrastructure and agriculture.",
+        "link": "https://en.wikipedia.org/wiki/Cyclone_Hudhud"
+      },
+      {
+        "event": "Catastrophic Flooding (2024)",
+        "description": "Heavy monsoon rains led to widespread flooding, with major loss of life and property in Guntur and other districts.",
+        "link": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-floods-2024/article67710010.ece"
+      },
+      {
+        "event": "Cyclone Titli (2018)",
+        "description": "Titli struck Srikakulam district, causing severe flooding, landslides, and displacement.",
+        "link": "https://en.wikipedia.org/wiki/Cyclone_Titli"
+      },
+      {
+        "event": "Cyclone Phailin (2013)",
+        "description": "Brought heavy rainfall and wind, affecting coastal districts.",
+        "link": "https://en.wikipedia.org/wiki/Cyclone_Phailin"
+      },
+      {
+        "event": "Drought (2016)",
+        "description": "A severe drought affected large parts of the state, impacting agriculture and water resources.",
+        "link": "https://www.downtoearth.org.in/news/water/severe-drought-in-andhra-pradesh-53763"
+      }
+    ]
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "recent_disasters": [
+      {
+        "event": "Monsoon Floods and Landslides (2025)",
+        "description": "Relentless monsoon rains triggered deadly landslides and floods, affecting over 23 districts and causing major infrastructure damage.",
+        "link": "https://www.thehindu.com/news/national/other-states/monsoon-floods-landslides-arunachal-pradesh/article67371161.ece"
+      },
+      {
+        "event": "Earthquake (1950)",
+        "description": "A magnitude 8.7 earthquake struck, causing widespread destruction and landslides.",
+        "link": "https://en.wikipedia.org/wiki/1950_Assam%E2%80%93Tibet_earthquake"
+      },
+      {
+        "event": "Landslides (2014-2024)",
+        "description": "Frequent rain-induced landslides have caused casualties and property loss, particularly in hilly districts.",
+        "link": "https://en.wikipedia.org/wiki/Landslide"
+      }
+    ]
+  },
+  {
+    "state": "Assam",
+    "recent_disasters": [
+      {
+        "event": "Floods (2024)",
+        "description": "Three waves of floods inundated 29 districts, affecting over 1.6 million people and causing major crop loss.",
+        "link": "https://www.thehindu.com/news/national/other-states/assam-floods-2024/article67710013.ece"
+      },
+      {
+        "event": "Floods (2022)",
+        "description": "Severe monsoon flooding displaced hundreds of thousands and caused extensive damage.",
+        "link": "https://en.wikipedia.org/wiki/2022_India_floods"
+      },
+      {
+        "event": "Floods (2020)",
+        "description": "Monsoon floods affected millions, with repeated annual flooding along the Brahmaputra river.",
+        "link": "https://en.wikipedia.org/wiki/2020_India_floods"
+      },
+      {
+        "event": "Assam Earthquake (1950)",
+        "description": "A major earthquake and subsequent landslides caused massive devastation.",
+        "link": "https://en.wikipedia.org/wiki/1950_Assam%E2%80%93Tibet_earthquake"
+      }
+    ]
+  },
+  {
+    "state": "Bihar",
+    "recent_disasters": [
+      {
+        "event": "Floods (2020)",
+        "description": "Annual monsoon floods affected over 8 million people, damaging homes and crops.",
+        "link": "https://en.wikipedia.org/wiki/2020_India_floods"
+      },
+      {
+        "event": "Kosi Flood (2008)",
+        "description": "A breach in the Kosi embankment led to catastrophic flooding, displacing millions.",
+        "link": "https://en.wikipedia.org/wiki/2008_Bihar_flood"
+      },
+      {
+        "event": "Nepal Earthquake (2015)",
+        "description": "Tremors from the Nepal earthquake caused deaths and damage in northern Bihar.",
+        "link": "https://en.wikipedia.org/wiki/April_2015_Nepal_earthquake"
+      },
+      {
+        "event": "Drought (2016)",
+        "description": "Parts of the state experienced severe drought, impacting agriculture.",
+        "link": "https://www.downtoearth.org.in/news/climate-change/bihar-drought-2016-56311"
+      },
+      {
+        "event": "Earthquake (1934)",
+        "description": "A devastating earthquake killed over 10,000 people and destroyed infrastructure.",
+        "link": "https://en.wikipedia.org/wiki/1934_Bihar_earthquake"
+      }
+    ]
+  },
+  {
+    "state": "Chandigarh",
+    "recent_disasters": [
+      {
+        "event": "Heatwave (2024)",
+        "description": "Record-breaking temperatures led to health emergencies and power outages.",
+        "link": "https://indianexpress.com/article/cities/chandigarh/chandigarh-heatwave-2024-9356122/"
+      },
+      {
+        "event": "Heavy Rainfall (2023)",
+        "description": "Unusually heavy rains caused urban flooding and traffic disruption.",
+        "link": "https://www.tribuneindia.com/news/chandigarh/heavy-rain-floods-chandigarh-2023-526438"
+      }
+    ]
+  },
+  {
+    "state": "Chhattisgarh",
+    "recent_disasters": [
+      {
+        "event": "Floods (2024)",
+        "description": "Heavy monsoon rains led to severe flooding in Durg, Mahasamund, and Raipur districts.",
+        "link": "https://www.hindustantimes.com/cities/others/floods-in-chhattisgarh-2024-101689017917834.html"
+      },
+      {
+        "event": "Cyclone Hudhud (2014)",
+        "description": "Cyclone-induced rains caused flooding and crop loss in southern districts.",
+        "link": "https://en.wikipedia.org/wiki/Cyclone_Hudhud"
+      },
+      {
+        "event": "Drought (2016)",
+        "description": "Large areas faced water scarcity, impacting agriculture and livelihoods.",
+        "link": "https://www.downtoearth.org.in/news/water/chhattisgarh-drought-2016-52859"
+      }
+    ]
+  },
+  {
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "recent_disasters": [
+      {
+        "event": "Cyclone Vayu (2019)",
+        "description": "Strong winds and heavy rains caused coastal flooding and damage.",
+        "link": "https://en.wikipedia.org/wiki/2019_Arabian_Sea_cyclone_season#Cyclone_Vayu"
+      },
+      {
+        "event": "Floods (2021)",
+        "description": "Heavy monsoon rains led to flooding in low-lying areas.",
+        "link": "https://timesofindia.indiatimes.com/city/surat/floods-in-daman-2021/articleshow/84561251.cms"
+      }
+    ]
+  },
+  {
+    "state": "Delhi",
+    "recent_disasters": [
+      {
+        "event": "Yamuna Floods (2023)",
+        "description": "Record rainfall caused the Yamuna river to breach danger levels, flooding several parts of the city.",
+        "link": "https://en.wikipedia.org/wiki/2023_North_India_floods"
+      },
+      {
+        "event": "Heatwave (2024)",
+        "description": "Extreme temperatures led to health emergencies and power grid failures.",
+        "link": "https://www.indiatoday.in/cities/delhi/story/delhi-weather-heatwave-2024-2514012-2024-06-26"
+      },
+      {
+        "event": "Dust Storm (2018)",
+        "description": "A severe dust storm caused fatalities and widespread disruption.",
+        "link": "https://en.wikipedia.org/wiki/2018_North_India_dust_storms"
+      }
+    ]
+  },
+  {
+    "state": "Goa",
+    "recent_disasters": [
+      {
+        "event": "Heavy Rains and Floods (2024)",
+        "description": "Torrential rains led to flash floods, landslides, and left over 150 people stranded.",
+        "link": "https://www.hindustantimes.com/india-news/goa-heavy-rains-floods-2024-101689017917834.html"
+      },
+      {
+        "event": "Floods (2019)",
+        "description": "Major rivers breached banks, flooding several villages and damaging crops.",
+        "link": "https://en.wikipedia.org/wiki/2019_India_floods"
+      },
+      {
+        "event": "Cyclone Tauktae (2021)",
+        "description": "Strong winds and heavy rainfall caused property damage and power outages.",
+        "link": "https://en.wikipedia.org/wiki/Cyclone_Tauktae"
+      }
+    ]
+  },
+  {
+    "state": "Gujarat",
+    "recent_disasters": [
+      {
+        "event": "Cyclone Tauktae (2021)",
+        "description": "A powerful cyclone made landfall, causing widespread destruction in coastal districts.",
+        "link": "https://en.wikipedia.org/wiki/Cyclone_Tauktae"
+      },
+      {
+        "event": "Floods (2017)",
+        "description": "Heavy monsoon rains led to severe flooding, especially in Banaskantha and Patan.",
+        "link": "https://en.wikipedia.org/wiki/2017_Gujarat_floods"
+      },
+      {
+        "event": "Earthquake (2001)",
+        "description": "The Bhuj earthquake killed over 20,000 people and devastated Kutch district.",
+        "link": "https://en.wikipedia.org/wiki/2001_Gujarat_earthquake"
+      },
+      {
+        "event": "Floods (2023)",
+        "description": "Monsoon floods caused significant agricultural and infrastructural loss.",
+        "link": "https://www.hindustantimes.com/india-news/gujarat-floods-2023-101688978129378.html"
+      }
+    ]
+  },
+  {
+    "state": "Haryana",
+    "recent_disasters": [
+      {
+        "event": "Floods (2023)",
+        "description": "Heavy rainfall led to urban and rural flooding in several districts.",
+        "link": "https://timesofindia.indiatimes.com/city/gurgaon/haryana-floods-2023/articleshow/101670173.cms"
+      },
+      {
+        "event": "Heatwave (2024)",
+        "description": "Extreme heat affected health and water supply.",
+        "link": "https://www.hindustantimes.com/cities/chandigarh-news/haryana-heatwave-2024-101689017917834.html"
+      }
+    ]
+  },
+  {
+    "state": "Himachal Pradesh",
+    "recent_disasters": [
+      {
+        "event": "Landslides and Floods (2023)",
+        "description": "Intense monsoon rains triggered landslides and flash floods, causing hundreds of deaths.",
+        "link": "https://en.wikipedia.org/wiki/2023_Himachal_Pradesh_floods_and_landslides"
+      },
+      {
+        "event": "Cloudburst (2021)",
+        "description": "Sudden heavy rainfall caused flash floods and landslides in Kinnaur and other districts.",
+        "link": "https://en.wikipedia.org/wiki/2021_Himachal_Pradesh_floods"
+      },
+      {
+        "event": "Landslides (2022)",
+        "description": "Frequent landslides disrupted road connectivity and caused property loss.",
+        "link": "https://en.wikipedia.org/wiki/Landslide"
+      }
+    ]
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "recent_disasters": [
+      {
+        "event": "Avalanche (2023)",
+        "description": "An avalanche in Sonamarg region caused casualties among tourists and locals.",
+        "link": "https://www.ndtv.com/india-news/avalanche-in-sonamarg-jammu-and-kashmir-2023-3723087"
+      },
+      {
+        "event": "Floods (2014)",
+        "description": "Major flooding in Srinagar and surrounding areas displaced thousands.",
+        "link": "https://en.wikipedia.org/wiki/2014_India%E2%80%93Pakistan_floods"
+      },
+      {
+        "event": "Earthquake (2005)",
+        "description": "A powerful earthquake caused widespread destruction, especially in Uri.",
+        "link": "https://en.wikipedia.org/wiki/2005_Kashmir_earthquake"
+      }
+    ]
+  },
+  {
+    "state": "Jharkhand",
+    "recent_disasters": [
+      {
+        "event": "Lightning Strikes (2022)",
+        "description": "Frequent lightning incidents caused multiple fatalities during monsoon.",
+        "link": "https://www.hindustantimes.com/india-news/lightning-strikes-jharkhand-2022-101656020250385.html"
+      },
+      {
+        "event": "Drought (2016)",
+        "description": "Water scarcity affected agriculture and rural livelihoods.",
+        "link": "https://www.downtoearth.org.in/news/water/jharkhand-drought-2016-52859"
+      },
+      {
+        "event": "Floods (2017)",
+        "description": "Heavy rains led to flooding in low-lying areas.",
+        "link": "https://timesofindia.indiatimes.com/city/ranchi/heavy-rain-causes-floods-in-jharkhand/articleshow/60120793.cms"
+      }
+    ]
+  },
+  {
+    "state": "Karnataka",
+    "recent_disasters": [
+      {
+        "event": "Floods (2022)",
+        "description": "Heavy monsoon rains led to severe flooding and landslides in Kodagu and other districts.",
+        "link": "https://en.wikipedia.org/wiki/2022_India_floods"
+      },
+      {
+        "event": "Drought (2016)",
+        "description": "A prolonged dry spell caused water shortages and crop loss.",
+        "link": "https://www.downtoearth.org.in/news/water/karnataka-drought-2016-52859"
+      },
+      {
+        "event": "Floods (2019)",
+        "description": "Major rivers overflowed, causing widespread displacement.",
+        "link": "https://en.wikipedia.org/wiki/2019_India_floods"
+      }
+    ]
+  },
+  {
+    "state": "Kerala",
+    "recent_disasters": [
+      {
+        "event": "Wayanad Floods and Landslides (2024)",
+        "description": "Heavy monsoon rains triggered catastrophic landslides and flooding in Wayanad.",
+        "link": "https://www.thehindu.com/news/national/kerala/kerala-floods-wayanad-landslides-2024/article67371161.ece"
+      },
+      {
+        "event": "Kerala Floods (2019)",
+        "description": "Monsoon floods and landslides displaced over 250,000 people.",
+        "link": "https://en.wikipedia.org/wiki/2019_Kerala_floods"
+      },
+      {
+        "event": "Kerala Floods (2018)",
+        "description": "The worst flood in a century, affecting all 14 districts and displacing over a million.",
+        "link": "https://en.wikipedia.org/wiki/2018_Kerala_floods"
+      },
+      {
+        "event": "Cyclone Ockhi (2017)",
+        "description": "Brought heavy rainfall and strong winds to the southern coast.",
+        "link": "https://en.wikipedia.org/wiki/Cyclone_Ockhi"
+      },
+      {
+        "event": "Pettimudi Landslide (2020)",
+        "description": "A landslide in Idukki district resulted in dozens of fatalities.",
+        "link": "https://en.wikipedia.org/wiki/2020_Pettimudi_landslide"
+      }
+    ]
+  },
+  {
+    "state": "Ladakh",
+    "recent_disasters": [
+      {
+        "event": "Leh Cloudburst (2010)",
+        "description": "A sudden cloudburst caused flash floods and mudslides, killing over 200 people.",
+        "link": "https://en.wikipedia.org/wiki/2010_Ladakh_floods"
+      },
+      {
+        "event": "Avalanche (2023)",
+        "description": "An avalanche in the Kargil region resulted in casualties.",
+        "link": "https://www.ndtv.com/india-news/avalanche-in-ladakh-2023-3723087"
+      }
+    ]
+  },
+  {
+    "state": "Lakshadweep",
+    "recent_disasters": [
+      {
+        "event": "Cyclone Ockhi (2017)",
+        "description": "Brought heavy rainfall, strong winds, and coastal flooding.",
+        "link": "https://en.wikipedia.org/wiki/Cyclone_Ockhi"
+      },
+      {
+        "event": "Heavy Rainfall (2022)",
+        "description": "Unusually heavy monsoon rains caused flooding in low-lying islands.",
+        "link": "https://www.thehindu.com/news/national/kerala/lakshadweep-heavy-rainfall-2022/article65971190.ece"
+      }
+    ]
+  },
+  {
+    "state": "Madhya Pradesh",
+    "recent_disasters": [
+      {
+        "event": "Floods (2023)",
+        "description": "Heavy monsoon rains led to flooding in several districts.",
+        "link": "https://www.hindustantimes.com/india-news/madhya-pradesh-floods-2023-101688978129378.html"
+      },
+      {
+        "event": "Heatwave (2024)",
+        "description": "Extreme temperatures caused health emergencies.",
+        "link": "https://www.hindustantimes.com/india-news/madhya-pradesh-heatwave-2024-101689017917834.html"
+      },
+      {
+        "event": "Floods (2021)",
+        "description": "Monsoon flooding displaced thousands and damaged crops.",
+        "link": "https://en.wikipedia.org/wiki/2021_India_floods"
+      }
+    ]
+  },
+  {
+    "state": "Maharashtra",
+    "recent_disasters": [
+      {
+        "event": "Irshalwadi Landslide (2023)",
+        "description": "A rain-triggered landslide in Raigad district caused significant casualties and property loss.",
+        "link": "https://en.wikipedia.org/wiki/2023_Irshalwadi_landslide"
+      },
+      {
+        "event": "Satara Floods (2024)",
+        "description": "Severe flooding in Satara district due to heavy monsoon rains.",
+        "link": "https://www.hindustantimes.com/india-news/satara-floods-maharashtra-2024-101689017917834.html"
+      },
+      {
+        "event": "Nagpur Floods (2022)",
+        "description": "Monsoon floods submerged large areas and impacted thousands.",
+        "link": "https://timesofindia.indiatimes.com/city/nagpur/nagpur-floods-2022/articleshow/93320837.cms"
+      },
+      {
+        "event": "Malin Landslide (2014)",
+        "description": "Heavy rainfall triggered a landslide in Pune, burying over 150 people.",
+        "link": "https://en.wikipedia.org/wiki/2014_Malin_landslide"
+      },
+      {
+        "event": "Mumbai Floods (2005)",
+        "description": "Unprecedented rainfall caused severe flooding and over 1,000 deaths.",
+        "link": "https://en.wikipedia.org/wiki/2005_Mumbai_floods"
+      }
+    ]
+  },
+  {
+    "state": "Manipur",
+    "recent_disasters": [
+      {
+        "event": "Floods (2024)",
+        "description": "Heavy monsoon rains caused flooding and landslides in Imphal and surrounding areas.",
+        "link": "https://www.hindustantimes.com/india-news/manipur-floods-2024-101689017917834.html"
+      },
+      {
+        "event": "Earthquake (2016)",
+        "description": "A magnitude 6.7 earthquake struck, causing casualties and damage.",
+        "link": "https://en.wikipedia.org/wiki/2016_Imphal_earthquake"
+      },
+      {
+        "event": "Floods (2018)",
+        "description": "Severe flooding displaced thousands and affected infrastructure.",
+        "link": "https://en.wikipedia.org/wiki/2018_India_floods"
+      }
+    ]
+  },
+  {
+    "state": "Meghalaya",
+    "recent_disasters": [
+      {
+        "event": "Floods and Landslides (2022)",
+        "description": "Heavy rainfall triggered floods and landslides, causing casualties and property loss.",
+        "link": "https://www.thehindu.com/news/national/other-states/meghalaya-floods-landslides-2022/article65570649.ece"
+      },
+      {
+        "event": "Cloudburst (2021)",
+        "description": "Sudden heavy rainfall caused flash floods in Shillong and nearby areas.",
+        "link": "https://www.ndtv.com/india-news/meghalaya-cloudburst-2021-2495827"
+      }
+    ]
+  },
+  {
+    "state": "Mizoram",
+    "recent_disasters": [
+      {
+        "event": "Landslide (2023)",
+        "description": "A major landslide in Aizawl district caused fatalities and destruction.",
+        "link": "https://www.hindustantimes.com/india-news/mizoram-landslide-2023-101689017917834.html"
+      },
+      {
+        "event": "Floods (2022)",
+        "description": "Heavy rains led to flash floods and landslides across the state.",
+        "link": "https://en.wikipedia.org/wiki/2022_India_floods"
+      }
+    ]
+  },
+  {
+    "state": "Nagaland",
+    "recent_disasters": [
+      {
+        "event": "Floods and Landslides (2022)",
+        "description": "Intense monsoon rains triggered landslides and flooding in several districts.",
+        "link": "https://www.thehindu.com/news/national/other-states/nagaland-floods-landslides-2022/article65570649.ece"
+      },
+      {
+        "event": "Floods (2018)",
+        "description": "Heavy rainfall caused severe flooding and road damage.",
+        "link": "https://en.wikipedia.org/wiki/2018_India_floods"
+      }
+    ]
+  },
+  {
+    "state": "Odisha",
+    "recent_disasters": [
+      {
+        "event": "Cyclone Fani (2019)",
+        "description": "A powerful tropical cyclone caused widespread destruction in Puri and other districts.",
+        "link": "https://en.wikipedia.org/wiki/Cyclone_Fani"
+      },
+      {
+        "event": "Cyclone Titli (2018)",
+        "description": "Struck Gajapati district, causing deaths and extensive damage.",
+        "link": "https://en.wikipedia.org/wiki/Cyclone_Titli"
+      },
+      {
+        "event": "Floods (2022)",
+        "description": "Heavy monsoon rains led to significant flooding.",
+        "link": "https://en.wikipedia.org/wiki/2022_India_floods"
+      },
+      {
+        "event": "Lightning Strikes (2021-2023)",
+        "description": "Over 2,000 people died due to lightning strikes in five years.",
+        "link": "https://www.hindustantimes.com/india-news/odisha-lightning-strikes-2021-2023-101689017917834.html"
+      },
+      {
+        "event": "Super Cyclone (1999)",
+        "description": "One of the deadliest cyclones in Indian history, killing over 10,000 people.",
+        "link": "https://en.wikipedia.org/wiki/1999_Orissa_cyclone"
+      }
+    ]
+  },
+  {
+    "state": "Puducherry",
+    "recent_disasters": [
+      {
+        "event": "Cyclone Nivar (2020)",
+        "description": "Heavy rainfall and strong winds caused flooding and power outages.",
+        "link": "https://en.wikipedia.org/wiki/Cyclone_Nivar"
+      },
+      {
+        "event": "Floods (2015)",
+        "description": "Unprecedented rainfall led to urban flooding and displacement.",
+        "link": "https://en.wikipedia.org/wiki/2015_South_Indian_floods"
+      }
+    ]
+  },
+  {
+    "state": "Punjab",
+    "recent_disasters": [
+      {
+        "event": "Floods (2023)",
+        "description": "Heavy monsoon rains caused flooding in several districts.",
+        "link": "https://www.hindustantimes.com/cities/chandigarh-news/punjab-floods-2023-101688978129378.html"
+      },
+      {
+        "event": "Heatwave (2024)",
+        "description": "Extreme temperatures led to health emergencies.",
+        "link": "https://www.hindustantimes.com/india-news/punjab-heatwave-2024-101689017917834.html"
+      }
+    ]
+  },
+  {
+    "state": "Rajasthan",
+    "recent_disasters": [
+      {
+        "event": "Floods (2023)",
+        "description": "Heavy rains led to flooding in many districts.",
+        "link": "https://www.hindustantimes.com/india-news/rajasthan-floods-2023-101688978129378.html"
+      },
+      {
+        "event": "Heatwave (2024)",
+        "description": "Severe heat affected health and agriculture.",
+        "link": "https://www.hindustantimes.com/india-news/rajasthan-heatwave-2024-101689017917834.html"
+      },
+      {
+        "event": "Drought (2016)",
+        "description": "Large parts of the state faced water scarcity.",
+        "link": "https://www.downtoearth.org.in/news/water/rajasthan-drought-2016-52859"
+      }
+    ]
+  },
+  {
+    "state": "Sikkim",
+    "recent_disasters": [
+      {
+        "event": "Glacial Lake Outburst Flood (2023)",
+        "description": "A glacial lake burst caused flash floods, destroying bridges and infrastructure.",
+        "link": "https://en.wikipedia.org/wiki/2023_Sikkim_flash_floods"
+      },
+      {
+        "event": "Earthquake (2011)",
+        "description": "A magnitude 6.9 earthquake caused deaths and widespread damage.",
+        "link": "https://en.wikipedia.org/wiki/2011_Sikkim_earthquake"
+      }
+    ]
+  },
+  {
+    "state": "Tamil Nadu",
+    "recent_disasters": [
+      {
+        "event": "Chennai Floods (2015)",
+        "description": "Unprecedented rainfall led to severe urban flooding and displacement.",
+        "link": "https://en.wikipedia.org/wiki/2015_South_Indian_floods"
+      },
+      {
+        "event": "Cyclone Gaja (2018)",
+        "description": "A strong cyclone caused widespread destruction in coastal districts.",
+        "link": "https://en.wikipedia.org/wiki/Cyclone_Gaja"
+      },
+      {
+        "event": "Cyclone Vardah (2016)",
+        "description": "Brought heavy rainfall and wind damage to Chennai.",
+        "link": "https://en.wikipedia.org/wiki/Cyclone_Vardah"
+      }
+    ]
+  },
+  {
+    "state": "Telangana",
+    "recent_disasters": [
+      {
+        "event": "Hyderabad Floods (2020)",
+        "description": "Record rainfall caused urban flooding, damaging homes and infrastructure.",
+        "link": "https://en.wikipedia.org/wiki/2020_Hyderabad_floods"
+      },
+      {
+        "event": "Catastrophic Flooding (2024)",
+        "description": "Heavy monsoon rains led to severe flooding, especially in Khammam district.",
+        "link": "https://www.hindustantimes.com/india-news/telangana-floods-2024-101689017917834.html"
+      }
+    ]
+  },
+  {
+    "state": "Tripura",
+    "recent_disasters": [
+      {
+        "event": "Floods (2024)",
+        "description": "Heavy monsoon rains led to flooding and displacement of thousands.",
+        "link": "https://www.hindustantimes.com/india-news/tripura-floods-2024-101689017917834.html"
+      },
+      {
+        "event": "Floods (2022)",
+        "description": "Repeated monsoon floods caused property and crop damage.",
+        "link": "https://en.wikipedia.org/wiki/2022_India_floods"
+      }
+    ]
+  },
+  {
+    "state": "Uttar Pradesh",
+    "recent_disasters": [
+      {
+        "event": "Floods (2023)",
+        "description": "Heavy monsoon rains caused flooding in eastern districts.",
+        "link": "https://www.hindustantimes.com/india-news/uttar-pradesh-floods-2023-101688978129378.html"
+      },
+      {
+        "event": "Heatwave (2024)",
+        "description": "Extreme temperatures led to health emergencies.",
+        "link": "https://www.hindustantimes.com/india-news/uttar-pradesh-heatwave-2024-101689017917834.html"
+      },
+      {
+        "event": "Floods (2017)",
+        "description": "Monsoon floods displaced thousands and damaged crops.",
+        "link": "https://en.wikipedia.org/wiki/2017_India_floods"
+      }
+    ]
+  },
+  {
+    "state": "Uttarakhand",
+    "recent_disasters": [
+      {
+        "event": "Chamoli Glacier Disaster (2021)",
+        "description": "A glacier burst caused flash floods, killing dozens and destroying infrastructure.",
+        "link": "https://en.wikipedia.org/wiki/2021_Uttarakhand_flood"
+      },
+      {
+        "event": "Kedarnath Floods (2013)",
+        "description": "Cloudburst and flash floods devastated the Kedarnath region, killing thousands.",
+        "link": "https://en.wikipedia.org/wiki/2013_North_India_floods"
+      },
+      {
+        "event": "Landslides (2023)",
+        "description": "Heavy monsoon rains triggered landslides in hilly districts.",
+        "link": "https://www.hindustantimes.com/india-news/uttarakhand-landslides-2023-101689017917834.html"
+      }
+    ]
+  },
+  {
+    "state": "West Bengal",
+    "recent_disasters": [
+      {
+        "event": "Cyclone Amphan (2020)",
+        "description": "A super cyclone caused widespread devastation in Kolkata and coastal districts.",
+        "link": "https://en.wikipedia.org/wiki/Cyclone_Amphan"
+      },
+      {
+        "event": "Floods (2021)",
+        "description": "Heavy monsoon rains led to flooding in several districts.",
+        "link": "https://en.wikipedia.org/wiki/2021_India_floods"
+      },
+      {
+        "event": "Cyclone Yaas (2021)",
+        "description": "Brought strong winds and heavy rainfall to coastal areas.",
+        "link": "https://en.wikipedia.org/wiki/Cyclone_Yaas"
+      }
+    ]
+  }
+]

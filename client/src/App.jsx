@@ -30,7 +30,8 @@ function App() {
     <BrowserRouter>
       <div className="flex flex-col md:flex-row-reverse h-screen w-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-500">
         <Navbar mode={mode} setMode={setMode} />
-        <div className="flex-1 flex flex-col items-center justify-center relative overflow-auto">
+        {/* FIX: Removed items-center justify-center to allow content to start at the top and be scrollable */}
+        <div className="flex-1 flex flex-col relative overflow-auto">
           <Routes>
             <Route path="/" element={<Home mode={mode} />} />
             <Route path="/weather" element={<WeatherPage mode={mode} markerColor="blue" />} />
