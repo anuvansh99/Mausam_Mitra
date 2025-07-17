@@ -1,0 +1,729 @@
+{
+  "Andaman and Nicobar Islands": [
+    {
+      "name": "Establishment of 20 MW DG power plant at Bambooflat, South Andaman District",
+      "description": "A 20 MW diesel generator power plant established for electricity generation.",
+      "sector": "Energy, Electricity generation (grid)"
+    },
+    {
+      "name": "Solar Photovoltaic Power Project",
+      "description": "A 5 MW solar photovoltaic renewable energy project for sustainable power generation.",
+      "sector": "Energy, Renewable energy (grid)"
+    },
+    {
+      "name": "Rajiv Gandhi Water Sports Complex",
+      "description": "A modern water sports and recreation infrastructure hub in Port Blair.",
+      "sector": "Tourism, Recreation Infrastructure"
+    }
+  ],
+  "Andhra Pradesh": [
+    {
+      "name": "Polavaram Multipurpose Irrigation Project",
+      "description": "Large dam and irrigation works providing water and flood management.",
+      "sector": "Water Sanitation, Irrigation"
+    },
+    {
+      "name": "Krishnapatnam Port Expansion",
+      "description": "Deep-water port for cargo and container movement to boost trade.",
+      "sector": "Transport, Ports"
+    },
+    {
+      "name": "Simhadri Super Thermal Power Plant",
+      "description": "2000 MW coal-fired plant supporting the state's power needs.",
+      "sector": "Energy, Power Generation"
+    },
+    {
+      "name": "Vijayawada Metro Project",
+      "description": "Urban rapid transit system planned for Vijayawada city.",
+      "sector": "Transport, Urban Transit"
+    },
+    {
+      "name": "Four Laning of Narketpally-Addanki-Medarametla Road Project",
+      "description": "A road infrastructure project improving highway capacity and safety.",
+      "sector": "Transport, Roads and bridges"
+    }
+  ],
+  "Arunachal Pradesh": [
+    {
+      "name": "600 MW Kameng Hydroelectric Project",
+      "description": "Hydroelectric project providing renewable energy to the region.",
+      "sector": "Energy, Hydroelectric"
+    },
+    {
+      "name": "Hollongi Greenfield Airport",
+      "description": "A new airport improving connectivity to the state capital Itanagar.",
+      "sector": "Transport, Airports"
+    },
+    {
+      "name": "Trans-Arunachal Highway",
+      "description": "Strategic road network across major districts to boost connectivity.",
+      "sector": "Transport, Highways"
+    }
+  ],
+  "Assam": [
+    {
+      "name": "Bogibeel Rail-Cum-Road Bridge",
+      "description": "4.94 km bridge over the Brahmaputra, improving multi-modal connectivity.",
+      "sector": "Transport, Rail-Road Bridge"
+    },
+    {
+      "name": "Assam Gas Cracker Project",
+      "description": "India's largest petrochemical project, driving industrialization in the northeast.",
+      "sector": "Industry, Petrochemicals"
+    },
+    {
+      "name": "Guwahati International Airport Expansion",
+      "description": "Expansion and modernization of Assam's principal airport.",
+      "sector": "Transport, Airports"
+    },
+    {
+      "name": "Jorhat Water Supply Project",
+      "description": "Urban water supply scheme for Jorhat and neighboring towns.",
+      "sector": "Water Sanitation, Urban Water"
+    },
+    {
+      "name": "Silchar-Saurashtra Road Network Project",
+      "description": "Upgradation of strategic roads linking Assam to mainland India.",
+      "sector": "Transport, Roads"
+    }
+  ],
+  "Bihar": [
+    {
+      "name": "Barh Super Thermal Power Station",
+      "description": "A large 1320 MW coal-fired thermal power plant.",
+      "sector": "Energy, Electricity generation"
+    },
+    {
+      "name": "Ganga Rail Bridge (Digha–Sonpur)",
+      "description": "Mega bridge connecting key regions across the Ganga river.",
+      "sector": "Transport, Railways"
+    },
+    {
+      "name": "Patna Metro Rail Project",
+      "description": "Urban rapid transit system under construction to serve Patna.",
+      "sector": "Transport, Urban public transport"
+    },
+    {
+      "name": "Patna Water Supply Network Improvement",
+      "description": "Project providing improved potable water coverage to urban Patna.",
+      "sector": "Water Sanitation, Urban Water"
+    },
+    {
+      "name": "Bihar State Highway Improvement Project",
+      "description": "Widening and upgrade of key highways for logistics and commerce.",
+      "sector": "Transport, Roads and bridges"
+    }
+  ],
+  "Chhattisgarh": [
+    {
+      "name": "NTPC Lara Super Thermal Power Station",
+      "description": "2,400 MW super thermal power station, a critical grid contributor.",
+      "sector": "Energy, Electricity generation"
+    },
+    {
+      "name": "Raipur Airport Modernization",
+      "description": "Expansion of Swami Vivekananda Airport to international standards.",
+      "sector": "Transport, Airports"
+    },
+    {
+      "name": "Chhattisgarh Water Supply and Drainage Project",
+      "description": "Comprehensive water supply and sewage management for urban centers.",
+      "sector": "Water Sanitation"
+    }
+  ],
+  "Delhi": [
+    {
+      "name": "Delhi Metro (All Phases)",
+      "description": "India's largest and busiest mass rapid transit system.",
+      "sector": "Transport, Metro"
+    },
+    {
+      "name": "Connaught Place Redevelopment",
+      "description": "Major revitalization of Delhi's commercial heartzone.",
+      "sector": "Urban Development, Markets"
+    },
+    {
+      "name": "Signature Bridge",
+      "description": "Iconic cable-stayed bridge linking Wazirabad with East Delhi.",
+      "sector": "Transport, Bridges"
+    },
+    {
+      "name": "Delhi International Airport Expansion (T3 & T4)",
+      "description": "World-class terminals with expanded passenger capacity.",
+      "sector": "Transport, Airports"
+    }
+  ],
+  "Goa": [
+    {
+      "name": "Mopa Greenfield Airport",
+      "description": "International airport enhancing connectivity for the state.",
+      "sector": "Transport, Airports"
+    },
+    {
+      "name": "Goa Shipyard Ltd. Modernization",
+      "description": "Upgrade of India's key defense shipbuilding facility.",
+      "sector": "Industry, Defense"
+    },
+    {
+      "name": "Zuari Bridge Project",
+      "description": "Cable-stayed bridge improving road transit across Zuari river.",
+      "sector": "Transport, Bridges"
+    }
+  ],
+  "Gujarat": [
+    {
+      "name": "Sardar Patel Ring Road",
+      "description": "Ring road encircling Ahmedabad improving city and freight mobility.",
+      "sector": "Transport, Roads"
+    },
+    {
+      "name": "Dholera SIR (Special Investment Region)",
+      "description": "Smart city and infra development region under DMIC.",
+      "sector": "Urban Development"
+    },
+    {
+      "name": "Sardar Sarovar Dam",
+      "description": "Massive irrigation, water supply, and hydroelectric project on Narmada.",
+      "sector": "Water, Irrigation, Power"
+    },
+    {
+      "name": "Sabarmati Riverfront Project",
+      "description": "Urban renewal and flood management on Sabarmati.",
+      "sector": "Urban Development, Waterways"
+    },
+    {
+      "name": "Gujarat International Finance Tec-City (GIFT City)",
+      "description": "India’s first operational greenfield smart city and financial hub.",
+      "sector": "Finance, Smart Cities"
+    }
+  ],
+  "Haryana": [
+    {
+      "name": "Kundli–Manesar–Palwal Expressway",
+      "description": "Major 135 km highway bypassing Delhi for freight/east-west movement.",
+      "sector": "Transport, Highways"
+    },
+    {
+      "name": "Indira Gandhi Super Thermal Power Project",
+      "description": "Three 500 MW units at Jhajjar, a major grid supplier.",
+      "sector": "Energy, Electricity generation"
+    },
+    {
+      "name": "Gurgaon Rapid Metro",
+      "description": "PPP rapid metro connecting commercial/business nodes.",
+      "sector": "Transport, Metro"
+    }
+  ],
+  "Himachal Pradesh": [
+    {
+      "name": "Koldam Hydro Electric Power Plant",
+      "description": "800 MW hydro plant on Sutlej river (NTPC’s first hydro venture).",
+      "sector": "Energy, Hydroelectric"
+    },
+    {
+      "name": "Ropeway Project at Dharamshala",
+      "description": "Public ropeway for tourism and urban mobility boost.",
+      "sector": "Transport, Urban Transit"
+    },
+    {
+      "name": "Hamirpur Water Supply Scheme",
+      "description": "Regional project for reliable potable water.",
+      "sector": "Water Sanitation"
+    }
+  ],
+  "Jharkhand": [
+    {
+      "name": "Patratu Super Thermal Power Plant",
+      "description": "Coal-fired power plant of 4000 MW planned capacity.",
+      "sector": "Energy, Power"
+    },
+    {
+      "name": "Ranchi Airport Infrastructure Upgrade",
+      "description": "Air connectivity improvements for state capital.",
+      "sector": "Transport, Airports"
+    },
+    {
+      "name": "East-West Corridor (NH-33 Improvement)",
+      "description": "Road upgradation linking Ranchi to Jamshedpur.",
+      "sector": "Transport, Roads and Bridges"
+    }
+  ],
+  "Karnataka": [
+    {
+      "name": "Kempegowda International Airport (Bangalore)",
+      "description": "South India's busiest airport with expansion of terminals and runways.",
+      "sector": "Transport, Airports"
+    },
+    {
+      "name": "Bangalore Metro (Namma Metro)",
+      "description": "Major urban mass rapid transit system (phase-wise expansion ongoing).",
+      "sector": "Transport, Metro"
+    },
+    {
+      "name": "Krishnarajasagara Dam Modernization",
+      "description": "Major irrigation and drinking water supply source upgrades.",
+      "sector": "Water, Irrigation"
+    },
+    {
+      "name": "Hubballi–Dharwad Bus Rapid Transit (BRT)",
+      "description": "Dedicated BRTS improving intra-city transport.",
+      "sector": "Transport, Urban Public Transport"
+    },
+    {
+      "name": "Mangalore Refinery and Petrochemicals Limited Expansion",
+      "description": "Capacity augmentation of major petroleum refinery.",
+      "sector": "Industry, Petroleum"
+    }
+  ],
+  "Kerala": [
+    {
+      "name": "Vizhinjam International Deepwater Seaport",
+      "description": "India's first automated container transshipment port.",
+      "sector": "Transport, Ports"
+    },
+    {
+      "name": "Kochi Metro Rail Project",
+      "description": "Urban metro providing eco-friendly city transport.",
+      "sector": "Transport, Metro"
+    },
+    {
+      "name": "Kerala Fibre Optic Network (K-FON)",
+      "description": "State-wide high-speed internet infrastructure rollout.",
+      "sector": "ICT"
+    }
+  ],
+  "Madhya Pradesh": [
+    {
+      "name": "Bina Refinery",
+      "description": "6 MMTPA oil & gas refinery supporting Central Indian energy needs.",
+      "sector": "Energy, Oil Refining"
+    },
+    {
+      "name": "Indore Metro Rail Project",
+      "description": "Urban rapid transit system in fast-growing city.",
+      "sector": "Transport, Metro"
+    },
+    {
+      "name": "Narmada-Kshipra Multipurpose Link Project",
+      "description": "River interlinking for irrigation and drought mitigation.",
+      "sector": "Water, Irrigation"
+    },
+    {
+      "name": "Bhopal Smart City Development",
+      "description": "Urban rejuvenation of capital under Smart Cities Mission.",
+      "sector": "Urban Development"
+    },
+    {
+      "name": "Rewa Ultra Mega Solar Park",
+      "description": "One of Asia’s largest solar parks (750 MW).",
+      "sector": "Energy, Solar"
+    }
+  ],
+  "Maharashtra": [
+    {
+      "name": "Mumbai Metro (All Lines)",
+      "description": "Expansive city-wide urban transit system.",
+      "sector": "Transport, Metro"
+    },
+    {
+      "name": "Mumbai Trans Harbour Link",
+      "description": "22 km bridge linking Mumbai to Navi Mumbai.",
+      "sector": "Transport, Bridges"
+    },
+    {
+      "name": "Chhatrapati Shivaji Maharaj International Airport Expansion",
+      "description": "Major upgrades to handle world-class passenger volume.",
+      "sector": "Transport, Airports"
+    },
+    {
+      "name": "Navi Mumbai International Airport",
+      "description": "New airport alleviating congestion in the Mumbai region.",
+      "sector": "Transport, Airports"
+    },
+    {
+      "name": "Samruddhi Mahamarg (Nagpur-Mumbai Expressway)",
+      "description": "701 km expressway connecting Nagpur to Mumbai.",
+      "sector": "Transport, Highways"
+    }
+  ],
+  "Manipur": [
+    {
+      "name": "Imphal Water Supply Project",
+      "description": "City-wide water supply infrastructure improvement for Imphal.",
+      "sector": "Water Sanitation"
+    },
+    {
+      "name": "Imphal-Moreh Road (Asian Highway-1) Upgrade",
+      "description": "Strategic highway providing trade link to South-East Asia.",
+      "sector": "Transport, Highways"
+    },
+    {
+      "name": "Loktak Hydroelectric Power Project",
+      "description": "Hydel plant supplying electricity across Manipur.",
+      "sector": "Energy, Hydroelectric"
+    }
+  ],
+  "Meghalaya": [
+    {
+      "name": "Umiam Stage V Hydroelectric Power Project",
+      "description": "Hydro station boosting the Meghalaya electric grid.",
+      "sector": "Energy, Hydroelectric"
+    },
+    {
+      "name": "Shillong By-Pass Road",
+      "description": "Key highway improving traffic in Shillong.",
+      "sector": "Transport, Roads"
+    },
+    {
+      "name": "Tura Water Supply Augmentation Scheme",
+      "description": "Project addressing potable water needs.",
+      "sector": "Water Sanitation"
+    }
+  ],
+  "Mizoram": [
+    {
+      "name": "Serchhip Solar PV Project",
+      "description": "Solar PV plant to advance green energy in the region.",
+      "sector": "Energy, Renewable (Solar)"
+    },
+    {
+      "name": "Tuirial Hydroelectric Power Project",
+      "description": "60 MW hydroelectric project for reliable power.",
+      "sector": "Energy, Hydroelectric"
+    },
+    {
+      "name": "Aizawl City Water Supply Improvement Project",
+      "description": "Urban water sanitation and capacity enhancement scheme.",
+      "sector": "Water Sanitation"
+    }
+  ],
+  "Nagaland": [
+    {
+      "name": "Dimapur Water Supply Project",
+      "description": "Water supply improvement for largest city of Nagaland.",
+      "sector": "Water Sanitation"
+    },
+    {
+      "name": "Nagaland State Road Infrastructure Project",
+      "description": "Major upgradation of state highways & roads.",
+      "sector": "Transport, Roads"
+    },
+    {
+      "name": "Kohima Solid Waste Management Facility",
+      "description": "Integrated urban waste management infrastructure in Kohima.",
+      "sector": "Urban Development"
+    }
+  ],
+  "Odisha": [
+    {
+      "name": "Talcher Super Thermal Power Station",
+      "description": "Coal-fired super thermal power plant.",
+      "sector": "Energy, Electricity generation"
+    },
+    {
+      "name": "Paradeep Port Expansion",
+      "description": "Key seaport development along the Bay of Bengal.",
+      "sector": "Transport, Ports"
+    },
+    {
+      "name": "Bhubaneswar Smart City",
+      "description": "Flagship smart city project with mobility, sewage, water, ICT components.",
+      "sector": "Urban Development"
+    },
+    {
+      "name": "Rengali Reservoir Project",
+      "description": "Multi-purpose dam for irrigation and hydropower.",
+      "sector": "Water, Irrigation"
+    },
+    {
+      "name": "Jharsuguda Airport",
+      "description": "Modern regional airport improving air connectivity in Western Odisha.",
+      "sector": "Transport, Airports"
+    }
+  ],
+  "Punjab": [
+    {
+      "name": "Talwandi Sabo Power Project",
+      "description": "Nationally important coal-based power station.",
+      "sector": "Energy, Power"
+    },
+    {
+      "name": "Bathinda Airport Expansion",
+      "description": "Upgradation of runways and terminal facilities.",
+      "sector": "Transport, Airports"
+    },
+    {
+      "name": "Paddy Straw Biomass Power Plants",
+      "description": "Clean energy from biomass reducing stubble burning.",
+      "sector": "Energy, Renewable"
+    }
+  ],
+  "Rajasthan": [
+    {
+      "name": "Barmer Lignite Mining and Power Project",
+      "description": "Integrated lignite mining and thermal power project.",
+      "sector": "Energy, Power"
+    },
+    {
+      "name": "Delhi-Mumbai Industrial Corridor Nodes",
+      "description": "Major infra/industrial investment zone spanning key districts.",
+      "sector": "Industry, Smart Cities"
+    },
+    {
+      "name": "Jaipur Metro",
+      "description": "Modern rapid transit system for Jaipur city.",
+      "sector": "Transport, Metro"
+    },
+    {
+      "name": "Chhabra Thermal Power Plant",
+      "description": "Thermal power generation enhancing grid capacity.",
+      "sector": "Energy, Power"
+    },
+    {
+      "name": "Indira Gandhi Canal Project",
+      "description": "Major irrigation lifeline for western Rajasthan.",
+      "sector": "Water, Irrigation"
+    }
+  ],
+  "Sikkim": [
+    {
+      "name": "Teesta III Hydroelectric Project",
+      "description": "World-class hydroelectric facility on the Teesta.",
+      "sector": "Energy, Hydroelectric"
+    },
+    {
+      "name": "Greenfield Pakyong Airport",
+      "description": "Strategic air connectivity project serving Sikkim.",
+      "sector": "Transport, Airports"
+    },
+    {
+      "name": "Gangtok Water Supply Improvement",
+      "description": "Infrastructure for urban water supply and distribution.",
+      "sector": "Water Sanitation"
+    }
+  ],
+  "Tamil Nadu": [
+    {
+      "name": "Chennai Metro Rail Project",
+      "description": "Multi-phase urban rapid transit system for Chennai.",
+      "sector": "Transport, Metro"
+    },
+    {
+      "name": "Ennore LNG Terminal",
+      "description": "Liquefied Natural Gas import and regasification infrastructure.",
+      "sector": "Energy, LNG"
+    },
+    {
+      "name": "Coimbatore Smart City",
+      "description": "Modernization of urban amenities in Coimbatore.",
+      "sector": "Urban Development"
+    },
+    {
+      "name": "Neyveli Thermal Power Station",
+      "description": "One of India's largest lignite-based power stations.",
+      "sector": "Energy, Electricity generation"
+    },
+    {
+      "name": "Chennai-Bangalore Industrial Corridor Nodes",
+      "description": "Industrial and logistics infrastructure nodes in southern India.",
+      "sector": "Industry, Infrastructure"
+    }
+  ],
+  "Telangana": [
+    {
+      "name": "Kaleshwaram Lift Irrigation Project",
+      "description": "Global scale multi-stage irrigation infrastructure.",
+      "sector": "Water, Irrigation"
+    },
+    {
+      "name": "Hyderabad Metro Rail",
+      "description": "Rapid transit system for the capital region.",
+      "sector": "Transport, Metro"
+    },
+    {
+      "name": "Outer Ring Road (Hyderabad)",
+      "description": "158km city peripheral expressway for smooth transit.",
+      "sector": "Transport, Roads"
+    }
+  ],
+  "Tripura": [
+    {
+      "name": "Tripura Gas Based Power Project",
+      "description": "Gas-based power plant supplying northeast India.",
+      "sector": "Energy, Gas Power"
+    },
+    {
+      "name": "Agartala City Water Supply Project",
+      "description": "Urban potable water infrastructure.",
+      "sector": "Water Sanitation"
+    },
+    {
+      "name": "Agartala Smart City Project",
+      "description": "Smart city mission for urban infrastructure.",
+      "sector": "Urban Development"
+    }
+  ],
+  "Uttar Pradesh": [
+    {
+      "name": "Jewar International Airport",
+      "description": "One of Asia's largest airports under development.",
+      "sector": "Transport, Airports"
+    },
+    {
+      "name": "Kanpur Metro Rail Project",
+      "description": "Metro system for Kanpur increasing urban transit capacity.",
+      "sector": "Transport, Metro"
+    },
+    {
+      "name": "Purvanchal Expressway",
+      "description": "340 km expressway connecting eastern districts to capital city.",
+      "sector": "Transport, Highways"
+    },
+    {
+      "name": "Bundelkhand Expressway",
+      "description": "Four-lane expressway to boost regional connectivity and employment.",
+      "sector": "Transport, Highways"
+    },
+    {
+      "name": "Ganga Expressway",
+      "description": "594 km expressway improving north-south movement.",
+      "sector": "Transport, Highways"
+    }
+  ],
+  "Uttarakhand": [
+    {
+      "name": "Tehri Hydroelectric Project",
+      "description": "2400 MW multi-purpose dam and hydropower infrastructure.",
+      "sector": "Energy, Hydroelectric"
+    },
+    {
+      "name": "Char Dham Highway Project",
+      "description": "Mountain road project for safer pilgrimage and logistics.",
+      "sector": "Transport, Roads"
+    },
+    {
+      "name": "Dehradun Smart City",
+      "description": "City renewal with ICT, transit and water supply components.",
+      "sector": "Urban Development"
+    }
+  ],
+  "West Bengal": [
+    {
+      "name": "Kolkata Metro Railway",
+      "description": "India's first and rapidly expanding metro network.",
+      "sector": "Transport, Metro"
+    },
+    {
+      "name": "Haldia Dock Complex (Port Trust)",
+      "description": "Major seaport expansion and modernization in West Bengal.",
+      "sector": "Transport, Ports"
+    },
+    {
+      "name": "Bengal Silicon Valley Tech Hub",
+      "description": "Large IT/tech park in Kolkata for technological development.",
+      "sector": "Industry, Technology"
+    }
+  ],
+  "Chandigarh": [
+    {
+      "name": "Chandigarh International Airport",
+      "description": "New terminal offering domestic and international flight connectivity.",
+      "sector": "Transport, Airports"
+    },
+    {
+      "name": "Chandigarh IT Park",
+      "description": "Modern tech hub supporting IT and startups.",
+      "sector": "Industry, Technology"
+    },
+    {
+      "name": "Manimajra Water Works Upgrade",
+      "description": "Infrastructure upgrade for city-wide potable water supply.",
+      "sector": "Water Sanitation"
+    }
+  ],
+  "Dadra and Nagar Haveli and Daman and Diu": [
+    {
+      "name": "Daman Airport Expansion",
+      "description": "Advance airport infrastructure for better connectivity.",
+      "sector": "Transport, Airports"
+    },
+    {
+      "name": "Silvassa Smart City Project",
+      "description": "Urban modernization with ICT, mobility and housing solutions.",
+      "sector": "Urban Development"
+    },
+    {
+      "name": "Diu Sewage Treatment Plant",
+      "description": "Water sanitation and waste management for coastal town.",
+      "sector": "Water Sanitation"
+    }
+  ],
+  "Jammu and Kashmir": [
+    {
+      "name": "Chenab Bridge",
+      "description": "World’s tallest railway bridge, part of Udhampur-Srinagar-Baramulla project.",
+      "sector": "Transport, Railway Bridges"
+    },
+    {
+      "name": "Srinagar Ring Road",
+      "description": "Expressway project bypassing city congestion.",
+      "sector": "Transport, Roads"
+    },
+    {
+      "name": "Jhelum Flood Management Project",
+      "description": "Flood management and river-lining infrastructure for Srinagar.",
+      "sector": "Water Sanitation, Flood Management"
+    }
+  ],
+  "Ladakh": [
+    {
+      "name": "Zojila Tunnel Project",
+      "description": "14.15 km all-weather tunnel connecting Ladakh to Kashmir valley.",
+      "sector": "Transport, Road Tunnels"
+    },
+    {
+      "name": "Leh Hydroelectric Power Project",
+      "description": "Small hydro plant to meet regional energy needs.",
+      "sector": "Energy, Hydroelectric"
+    },
+    {
+      "name": "Kushok Bakula Rimpochee Airport Upgrade",
+      "description": "Runway and terminal expansion for year-round air access.",
+      "sector": "Transport, Airports"
+    }
+  ],
+  "Lakshadweep": [
+    {
+      "name": "Agatti Airport Expansion",
+      "description": "Runway extension for ATR/Boeing flights, boosting tourism.",
+      "sector": "Transport, Airports"
+    },
+    {
+      "name": "Kavaratti Water Desalination Plant",
+      "description": "Reverse osmosis-based fresh water plant for the islands.",
+      "sector": "Water Sanitation, Desalination"
+    },
+    {
+      "name": "Lakshadweep Coastal Road Project",
+      "description": "Road network linking main inhabited islands.",
+      "sector": "Transport, Roads"
+    }
+  ],
+  "Puducherry": [
+    {
+      "name": "Puducherry Port Development",
+      "description": "Modernization and dredging to expand trade traffic.",
+      "sector": "Transport, Ports"
+    },
+    {
+      "name": "Oussudu Lake Water Supply Project",
+      "description": "Water supply augmentation for sustainable urban supply.",
+      "sector": "Water Sanitation"
+    },
+    {
+      "name": "Jawahar Lal Nehru Street Redevelopment",
+      "description": "Pedestrian, lighting, and heritage conservation in urban core.",
+      "sector": "Urban Development"
+    }
+  ]
+}
