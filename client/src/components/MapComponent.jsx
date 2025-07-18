@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import 'leaflet/dist/leaflet.css';
 import { capitals } from '../data/capitals';
 import L from 'leaflet';
-import MarkerPopUp from './MarkerPopUp';
+import MarkerPopUp from './MarkerPopUp.jsx';
 
 // Marker icons for different colors (all available in the Leaflet color markers set)
 const markerIcons = {
